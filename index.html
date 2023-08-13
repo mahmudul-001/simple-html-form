@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple html Form</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        form input{
+            margin-top: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To Pitha Ghor</h1>
+        <h3>Sign in for your order</h3>
+    </header>
+    <main>
+        <form action="">
+            <label for="name">Your Name
+                <input type="text" name="" id="name" placeholder="Your Name">
+            </label>
+            <label for="email">Your Email
+                <input type="email" name="" id="eamil" placeholder="Your Email">
+            </label>
+            <label for="phone">Your Number
+                <input type="number" name="" id="phone" placeholder="Your Number">
+            </label>
+            <label for="password">Enter Password
+                <input type="password" name="" id="password" placeholder="Enter Password">
+            </label>
+            <fieldset>
+                <legend>Choose Your <strong>Pitha</strong> Favorite One</legend>
+                <label for="patishapta pitha">
+                    <input type="radio" name="pitha" id="patishapta pitha">
+                    Patishapta Pitha
+                </label>
+                <label for="bhapa pitha">
+                    <input type="radio" name="pitha" id="bhapa pitha">
+                    Bhapa Pitha
+                </label>
+                <label for="spicy eagg pitha">
+                    <input type="radio" name="pitha" id="spicy eagg pitha">
+                    Spicy Eagg Pitha
+                </label>
+                <label for="mawa pitha">
+                    <input type="radio" name="pitha" id="mawa pitha">
+                    Mawa pitha
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose Your Favorite <strong>Vorta</strong></legend>
+                <label for="sorisha">
+                    <input type="checkbox" name="Vorta" id="sorisha">
+                    Sorisha
+                </label>
+                <label for="sorisha">
+                    <input type="checkbox" name="Vorta" id="sorisha">
+                    Sorisha
+                </label>
+                <label for="dhonia">
+                    <input type="checkbox" name="Vorta" id="dhonia">
+                    Dhonia
+                </label>
+                <label for="shutki">
+                    <input type="checkbox" name="Vorta" id="shutki">
+                    Shutki
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Send Your Feedback</legend>
+                <textarea name="" id="" cols="100" rows="5"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <small>©mahmudul-001 2023</small>
+    </footer>
+
+</body>
+
+</html>
